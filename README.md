@@ -11,9 +11,41 @@
 
 1. login into your vps as root
 
-2. run this command and get the **masternodeprivatekey**
+2. run this command and copy the **masternodeprivatekey**
 
    ```
    git clone https://github.com/SocialNodeProtocol/Masternode_setup.git
    cd Masternode_setup && bash installMN.sh
+   ```
+
+### 2. Wallet
+
+1. Tools > Debug Console input this command and you will get a address:
+
+2. ```
+   getnewaddress
+   ```
+
+2. send **1000 SMN** to this address
+
+3. wait 15 confirms of transaction
+
+4. Tools > Debug Console input this command you will get the **collateral_output_txid  and collateral_output_index**
+
+   ```
+   masternode outputs
+   ```
+   
+6. Setting > Open masternode configuration file add:
+
+   ```
+   mn1 VPS_IP:32301 masternodeprivatekey collateral_output_txid collateral_output_index
+   ```
+
+7. restart wallet
+
+8. Tools > Debug Console input this command
+
+9. ```
+   masternode start-alias mn1
    ```
