@@ -98,7 +98,7 @@ function create_conf() {
   echo "externalip=$IP:$PORT" >> socialnode.conf_TEMP
   echo "port=$PORT" >> socialnode.conf_TEMP
   echo "masternodeaddr=$IP:$PORT" >> socialnode.conf_TEMP
-  echo "masternodeprivatekey=$COINKEY" >> socialnode.conf_TEMP
+  echo "masternodeprivkey=$COINKEY" >> socialnode.conf_TEMP
   mv socialnode.conf_TEMP $CONF_DIR/socialnode.conf
 }
 
