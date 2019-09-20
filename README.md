@@ -4,7 +4,7 @@
 
 ### 1. VPS
 
-You can but VPS in [vultr.com](https://www.vultr.com/?ref=7230669)
+You can buy VPS in [vultr.com](https://www.vultr.com/?ref=7230669)
 
 ##### Requirements
 
