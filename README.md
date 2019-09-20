@@ -4,6 +4,8 @@
 
 ### 1. VPS
 
+You can but VPS in [vultr.com](https://www.vultr.com/?ref=7230669)
+
 ##### Requirements
 
 - Ubuntu v16.04.x VPS with 1 CPU / 1GB MEM
@@ -17,6 +19,22 @@
    git clone https://github.com/SocialNodeProtocol/Masternode_setup.git
    cd Masternode_setup && bash installMN.sh
    ```
+   
+   Enter "y";
+   
+   ![](https://github.com/SocialNodeProtocol/Masternode_setup/blob/master/images/step1.png)
+   
+   
+   
+   Just Enter:
+   
+   ![](https://github.com/SocialNodeProtocol/Masternode_setup/blob/master/images/step2.png)
+   
+   
+   
+   Finally you will get this:
+   
+   ![](https://github.com/SocialNodeProtocol/Masternode_setup/blob/master/images/step3.png)
 
 ### 2. Wallet
 
